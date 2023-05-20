@@ -1,7 +1,6 @@
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import prisma from "@/app/libs/prismadb";
-import axios from "axios";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 interface IParams {
   listingId?: string;
